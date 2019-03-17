@@ -16,7 +16,7 @@ def speak_to_grandma(say)
   # say = gets.chomp    
   if say == 'I LOVE YOU GRANDMA!'
      'I LOVE YOU TOO PUMPKIN!'
-  elsif say == String.upcase
+  elsif say == Class.String.upcase
      'NO, NOT SINCE 1938!'
   else 
      'HUH?! SPEAK UP, SONNY!'

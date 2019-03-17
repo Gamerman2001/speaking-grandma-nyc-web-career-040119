@@ -12,8 +12,8 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-def speak_to_grandma
-  say = gets.chomp    
+def speak_to_grandma(say)
+  # say = gets.chomp    
   if say == 'I LOVE YOU GRANDMA'
     puts 'I LOVE YOU TOO PUMPKIN'
   elsif say == String.upcase

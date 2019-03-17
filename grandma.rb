@@ -16,7 +16,6 @@ def speak_to_grandma(say)
   # say = gets.chomp    
   if say == 'I LOVE YOU GRANDMA!'
     puts 'I LOVE YOU TOO PUMPKIN!'
-    Prying.rb
   elsif say == say.upcase
     puts 'NO, NOT SINCE 1938!'
   else 

@@ -13,7 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma
-  
+  say = gets.chomp
   if say == 'I LOVE YOU GRANDMA'
     puts 'I LOVE YOU TOO PUMPKIN'
   elsif say == String.upcase
